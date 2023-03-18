@@ -1,0 +1,145 @@
+.place1{
+    width: 50px;
+    height: 50px;
+    transform: translate(810px, 180px);
+}
+.place1 > img{
+    width: 40px;
+    height: 40px;
+}
+#myDIV{
+    width: 100%;
+    height: 400px;
+    background-color: #FFC312;
+    display: none;
+}
+.AfrikaTextNmop{
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 4px solid #A3CB38;
+    border-radius: 10px;
+    background-color: #009432;
+}.succesIN{
+    position: fixed;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #009432;
+}
+.divMapAfrika1 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(766px, 1209px);
+}
+.divMapAfrika2 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(57px, 1236px);
+}
+.divMapAfrika3 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(253px, 1248px);
+}
+.divMapAfrika4 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(285px, 1113px);
+}
+.divMapAfrika5 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(487px, 1050px);
+}
+.divMapAfrika6 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(507px, 1253px);
+}
+.divMapAfrika7 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(789px, 1089px);
+}
+.divMapAfrika8 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(794px, 1196px);
+}
+.divMapAfrika9 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(751px, 1210px);
+}
+.divMapAfrika10 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(582px, 1166px);
+}
+.divMapAfrika11 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(733px, 1134px);
+}
+.divMapAfrika12 {
+    width: 220px;
+    height: 80px;
+    border-radius: 12px;
+    border:2px solid #009432;
+    transform: translate(554px, 1155px);
+}
+.InpAfrika{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 2px solid #FFC312;
+    transform: translateY(-15px);
+    padding-left: 10px;
+}
+#Tp{
+    margin-top: -860px;
+}
+
+#afrikaInputAnswer1,
+#afrikaInputAnswer2,
+#afrikaInputAnswer3,
+#afrikaInputAnswer4,
+#afrikaInputAnswer5,
+#afrikaInputAnswer6,
+#afrikaInputAnswer7,
+#afrikaInputAnswer8,
+#afrikaInputAnswer9{
+ padding-left: 10px;
+}

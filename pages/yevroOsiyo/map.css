@@ -1,0 +1,7 @@
+.yvMap{
+    height: 1800px;
+    transform: rotate(90deg);
+    background-image: url('https://kartografiya.uz/wp-content/uploads/2021/04/24_fiz_ev_rus_uzb1_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+.afrikaQuestionsEction{
+    border: 2px solid #95afc0;
+    margin: 10px;
+    height: 250px !important;
+    border-radius: 8px;
+}
+.inpAfrikaWq{
+    width: 95%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    transform: translateY(80px);
+    border-radius: 3px;
+    border-bottom: 2px solid #130f40;
+}
