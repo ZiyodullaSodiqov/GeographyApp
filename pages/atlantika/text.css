@@ -1,0 +1,13 @@
+.INpText{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.atInpOne{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-bottom: 2px solid #000;
+}

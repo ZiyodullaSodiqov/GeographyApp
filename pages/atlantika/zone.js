@@ -41,7 +41,7 @@ function dragDrop() {
     matchingCounter++;
   }
 
-  if (matchingCounter === 4) {
+  if (matchingCounter === 5) {
     endMessage.style.display = 'block';
   }
 
@@ -51,16 +51,20 @@ function dragDrop() {
 function checkForMatch(selected, dropTarget) {
   switch (selected) {
     case 'e1':
-      return dropTarget === 's1' ? true : false;
-
-    case 'e2':
       return dropTarget === 's4' ? true : false;
 
+    case 'e2':
+      return dropTarget === 's5' ? true : false;
+
     case 'e3':
-      return dropTarget === 's2' ? true : false;
+      return dropTarget === 's1' ? true : false;
 
     case 'e4':
       return dropTarget === 's3' ? true : false;
+
+    case 'e5':
+      return dropTarget === 's2' ? true : false;
+
 
     default:
       return false;
@@ -70,15 +74,18 @@ function checkForMatch(selected, dropTarget) {
 function checkForMatch2(selected, dropTarget) {
   switch (selected) {
     case 's1':
-      return dropTarget === 'e1' ? true : false;
+      return dropTarget === 'e3' ? true : false;
 
     case 's2':
-      return dropTarget === 'e3' ? true : false;
+      return dropTarget === 'e5' ? true : false;
 
     case 's3':
       return dropTarget === 'e4' ? true : false;
 
     case 's4':
+      return dropTarget === 'e1' ? true : false;
+
+      case 's5':
       return dropTarget === 'e2' ? true : false;
 
     default:

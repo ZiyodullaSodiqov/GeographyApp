@@ -1,0 +1,14 @@
+.pp_W{
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 1px solid #0652DD;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}

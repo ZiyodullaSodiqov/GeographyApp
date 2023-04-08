@@ -54,13 +54,13 @@ function checkForMatch(selected, dropTarget) {
       return dropTarget === 's1' ? true : false;
 
     case 'e2':
-      return dropTarget === 's4' ? true : false;
-
-    case 'e3':
       return dropTarget === 's2' ? true : false;
 
-    case 'e4':
+    case 'e3':
       return dropTarget === 's3' ? true : false;
+
+    case 'e4':
+      return dropTarget === 's4' ? true : false;
 
     default:
       return false;
@@ -73,13 +73,13 @@ function checkForMatch2(selected, dropTarget) {
       return dropTarget === 'e1' ? true : false;
 
     case 's2':
-      return dropTarget === 'e3' ? true : false;
+      return dropTarget === 'e2' ? true : false;
 
     case 's3':
-      return dropTarget === 'e4' ? true : false;
+      return dropTarget === 'e3' ? true : false;
 
     case 's4':
-      return dropTarget === 'e2' ? true : false;
+      return dropTarget === 'e4' ? true : false;
 
     default:
       return false;
