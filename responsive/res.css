@@ -1,0 +1,77 @@
+@media only screen and (max-width: 480px ) {
+    .IndexRowREsp{
+        flex-direction: column;
+        margin: 30px;
+        padding: 20px;
+     }
+     .Cls2REsp{
+        margin: 20px;
+        padding: 10px;
+        width: 450px !important;  
+     }
+     li{
+        list-style-image: url('./eco-earth.png');
+     }
+     .resGm1{
+        width: 450px !important;
+     }
+     .testDiv {
+        width: 350px !important;
+         transform: translate(0px, 0px);
+     }
+     .otvet{
+      display: flex;
+      justify-content: center;
+      width: 480px;
+     }
+     .oneInputs{
+      transform: none;
+     }
+     .TwoInputs{
+      transform: none;
+     }
+     .testDiv{
+      transform: none !important;
+     }
+     .azimutTitle{
+      font-size: 18px;
+     }
+     .afrikaZoneCol > .col-6{
+      width: 200px;
+      height: 100px;
+     }
+     .quesImg{
+      height: 100px !important;
+     }
+     .li{
+      list-style-image: url('./img.jpg');
+   }
+   .resGm1{
+      width: 450px !important;
+   }
+   .testDiv{
+      width: 350px !important;
+      transform: translate(0px, 0px);
+   }
+   .TwoInputs , .oneInputs{
+       transform: none;
+   }
+   #e1 , #e2 , #e3 , #e4 , #e5 , #e6{
+       width: 100%;
+   }
+   #s1 , #s2 , #s3 , #s4 , #s5 , #s6{
+       width: 100%;
+   }
+   .draggable-list{
+    display: block;
+   }
+   .imagesColResp{
+       height: 200px;
+   }
+   .DivTrueResp{
+       height: 200px;
+       width: 200px !important;
+       padding: 70px;
+       margin-top: 10px;
+   }
+  }

@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="./afrika.css">
+    <link rel="stylesheet" href="./afri ka.css">
     <link rel="icon" href="../Images/Logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
     <div class="nav_box">
@@ -35,95 +35,268 @@
                   </div>
                 </div>
               </nav>
-        </div>
-    </div>
-
-    <div id="Tp">
-        <div class="container">
-                <div class="divMapAfrika1">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika"  id="afrikaInputAnswer1" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika2">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer2" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-        
-                <div class="divMapAfrika3">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer3" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika4">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer4" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika5">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer5" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika6">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer6" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika7">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer7" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika8">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer8" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika9">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer9" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika10">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer10" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
-                <div class="divMapAfrika11">
-                    <p style="text-align: center;">
-                        <img src="../Images/placeholder.png" style="height: 35px;width: 35px;transform: translateY(-25px);" alt="">
-                        <input type="text" class="InpAfrika" id="afrikaInputAnswer11" placeholder="Nomini kiriting.">
-                    </p>
-                </div>
             </div>
-        </div>
-        <div class="container" style="overflow: scroll;">
-            <img src="https://fedoroff.net/_ld/2/68649404.jpg" style="width: 100%;" alt="">
-        </div>
-        <div class="container" style="transform: translateY(120px);">
+          </div>
+          
+          <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-success" style="width: 100%;" onclick="javoblar()">Yuborish</button>
+              <div class="col-12" style="background-image: url('https://fedoroff.net/_ld/2/68649404.jpg');height: 1200px;background-repeat: no-repeat;background-position: center;">
+                <div class="dropdown">
+                  <button id="bntabs" class="btn btn-secondary dropdown-toggle bntab" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <img src="" alt=""> -->
+                    <i class="fa-sharp fa-solid fa-location-dot" id="i1"></i>
+                  </button>
+                  <ul class="dropdown-menu" style="width: 300px;">
+                    <div class="an1T">
+                        <input id="in2" type="radio" name="fav_language" value="Somali yarim oroli">
+                        <label for="in2">Somali yarim oroli</label>
+                    </div>
+                    <div class="an1T">
+                      <input type="radio" name="fav_language" id="inp1" value="Kattara botig’i">
+                      <label for="inp1">Kattara botig’i</label>
+                    </div>
+                    <div class="an1T">
+                      <input id="in2" type="radio" name="fav_language" value="Kamerun vulqoni">
+                      <label for="in2">Kamerun vulqoni</label>
+                    </div>
+                      <button class="btn btn-primary" onclick="resultate()">tekshirish</button>
+                  </ul>
+                </div>
+                    <div class="dropdown">
+                        <button style="margin-left: 50%; margin-top: 370px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i2" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu"  style="width:300px;">
+                            <div class="an1T">
+                              <input type="radio" name="fav_language" id="inp2">
+                              <label for="inp2">Liviya cho’li</label>
+                            </div>
+                            <div class="an1T">
+                              <input id="in2" type="radio" name="fav_language">
+                              <label for="in2">Tanganika ko’li</label>
+                            </div>
+                            <div class="an1T">
+                              <input id="in2" type="radio" name="fav_language">
+                              <label for="in2">Madagaskar oroli</label>
+                            </div>
+                            <button class="btn btn-primary" onclick="resultate2()">tekshirish</button>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button style="margin-left: 60%; margin-top: 400px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i3" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Liviya cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp3" name="fav_language" type="radio">
+                            <label for="inp3">Nubiya cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Madagaskar oroli</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate3()">tekshirish</button>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button style="margin-left: 37%; margin-top:450px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i4" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Kamerun vulqoni</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Kalaxari</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp4" type="radio" name="fav_language">
+                            <label for="inp4">Ansonga menaka qo’riqxonasi</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate4()">tekshirish</button>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button style="margin-left: 71%; margin-top: 520px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i5" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="inp5">
+                            <label for="inp5">Somali yarim oroli</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Namib cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Liviya cho’li</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate5()">tekshirish</button>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <button style="margin-left: 41%; margin-top: 520px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i6" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Namib cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp6" name="fav_language" type="radio">
+                            <label for="inp6">Kamerun vulqoni</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Somali yarim oroli</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate6()">tekshirish</button>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown">
+                        <button style="margin-left: 66%; margin-top: 610px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i7" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Namib cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Kamerun vulqoni</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp7" type="radio" name="fav_language">
+                            <label for="inp7">Klimanjaro vulqoni</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate7()">tekshirish</button>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown">
+                        <button style="margin-left: 61%; margin-top: 630px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i8" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="inp8">
+                            <label for="inp8">Tanganika ko’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Madagaskar oroli</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Nubiya cho’li</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate8()">tekshirish</button>
+                        </ul>
+                      </div>
+                      
+
+                      <div class="dropdown">
+                        <button style="margin-left: 46%; margin-top: 800px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i9" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Tanganika ko’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp9" name="fav_language" type="radio">
+                            <label for="inp9">Namib cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Nubiya cho’li</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate9()">tekshirish</button>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown">
+                        <button style="margin-left: 53%; margin-top: 820px; position: absolute;  background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i10" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="in2">
+                            <label for="in2">Tanganika ko’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Namib cho’li</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="inp10" type="radio" name="fav_language">
+                            <label for="inp10">Kalaxari</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate10()">tekshirish</button>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown">
+                        <button style="margin-left: 67%; margin-top: 770px; position: absolute; background-color: transparent; color: #f9ca24; border: none;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <!-- <img src="" alt=""> -->
+                          <i id="i11" class="fa-sharp fa-solid fa-location-dot"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="width: 300px;">
+                          <div class="an1T">
+                            <input type="radio" name="fav_language" id="inp11">
+                            <label for="inp11">Madagaskar oroli</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" name="fav_language" type="radio">
+                            <label for="in2">Somali yarim oroli</label>
+                          </div>
+                          <div class="an1T">
+                            <input id="in2" type="radio" name="fav_language">
+                            <label for="in2">Nubiya cho’li</label>
+                          </div>
+                            <button class="btn btn-primary" onclick="resultate11()">tekshirish</button>
+                        </ul>
+                      </div>
+
+
+
+
+
                 </div>
             </div>
         </div>
     </div>
 
+    
+    <button type="button" class="btn btn-success" style="width: 100%;" onclick="javoblar()">Yuborish</button>
+
+
+    
 
 
    
     <script src="../js/afrika.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

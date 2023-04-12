@@ -92,3 +92,7 @@
   .quesDiv{
     height: 450px;
   }
+  .IndexRowREsp{
+    display: flex;
+    flex-direction: row;
+  }

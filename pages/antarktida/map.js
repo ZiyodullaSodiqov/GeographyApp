@@ -1,4 +1,4 @@
- function resultate() {
+function resultate() {
     if(document.getElementById('inp1').checked){
         document.getElementById('i1').style.color = "#6ab04c";
       }else(
@@ -68,24 +68,3 @@
         document.getElementById('i10').style.color = "#eb4d4b"
       )
  }
- function resultate11() {
-    if(document.getElementById('inp11').checked){
-        document.getElementById('i11').style.color = "#6ab04c";
-      }else(
-        document.getElementById('i11').style.color = "#eb4d4b"
-      )
- }
- function resultate12() {
-  if(document.getElementById('inp12').checked){
-      document.getElementById('i12').style.color = "#6ab04c";
-    }else(
-      document.getElementById('i12').style.color = "#eb4d4b"
-    )
-}
-function resultate13() {
-  if(document.getElementById('inp13').checked){
-      document.getElementById('i13').style.color = "#6ab04c";
-    }else(
-      document.getElementById('i13').style.color = "#eb4d4b"
-    )
-}

@@ -124,3 +124,22 @@
 #Tp{
     margin-top: -860px;
 }
+.dropdown-menu > li{
+    cursor: pointer;
+}
+.an1T{
+    width: 200px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 8px;
+}
+.bntab{
+    margin-left: 57% !important;
+    margin-top: 350px !important;
+    position: absolute !important; 
+    background-color: transparent !important;
+    color: #f9ca24 !important;
+    border: none !important;
+    
+}
